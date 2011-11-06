@@ -13,4 +13,9 @@
 #
 
 class Place < ActiveRecord::Base
+  attr_accessible :name, :address, :description, :lat, :lng
+
+  validates :name,  :presence => true
+  validates :lat,   :presence => true
+  validates :lng,   :presence => true
 end
