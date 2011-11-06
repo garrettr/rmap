@@ -1,4 +1,6 @@
 Rmap::Application.routes.draw do
+  get "places/new"
+
   get "pages/home"
 
   root :to => "pages#home"
