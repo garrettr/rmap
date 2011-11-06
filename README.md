@@ -1,6 +1,15 @@
 rmap
 ====
 
+Test data
+---------
+
+Oberlin College
+Oberlin, OH
+41.294728
+-82.220144
+We went there
+
 Description
 -----------
 
